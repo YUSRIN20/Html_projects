@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edyoda Stories</title>
+</head>
+<style>
+  
+    .heading{
+        background-color: rgb(255, 255, 255);
+        margin-top: 0%;
+        margin: -1%;
+        padding: 2px 78px;
+        text-size-adjust: 32px;
+        box-shadow: 9px 1px;
+        color: rgb(197, 197, 199);
+       
+    }
+    h1{
+        color:#0084ff
+    }
+    .heading h3{
+        margin-top: -1.5%;
+        font-weight: 500;
+       font-style: italic;
+       color: black;
+    }
+    .drop{
+        
+     position:absolute;
+     top:40px;
+     left:280px;
+        
+    }     
+    .main{
+        margin-top: 50px;
+        margin-left: 92px;
+    }
+    .content{
+        margin-left: 5%;
+        margin-top: -7px;
+        padding-bottom: 10px;
+    }
+    .categories{
+        margin-left: 32%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 72px;
+        width: 30px;
+        height: 4px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      font-weight: 700;
+      border-width: 2px;
+      cursor: pointer;
+    
+
+    }
+    .All{
+        margin-top: -50px;
+    }
+    .categories:hover{
+        color: #0084ff;
+    }
+    #box-2{
+        margin-left:58%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-3{
+         margin-left: 132%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+    }
+    #box-4{
+        margin-left: 202.5%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-5{
+        margin-left: 290%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-6{
+        margin-left: 328%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-7{
+        margin-left:434%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-8{
+        margin-left: 32%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        margin-top: 6%;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+
+    }
+    #box-9{
+        margin-left: 127%;
+        font-size: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        margin-top: -32px;
+       border: 1px solid #0084ff;;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      border-width: 2px;
+      
+
+    }
+    .categories:hover{
+        background-color: #0084ff;
+        color: azure;
+    }
+    .All :hover{
+        color: azure;
+    }
+   .img-1{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 5.3%;
+
+    
+   }
+   .img-2{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: -553px;
+    margin-left: 31.7%;
+
+    
+   }
+   .img-3{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: -553px;
+    margin-left: 58%;
+   }
+
+    .img-4{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 5.3%;
+    
+   }
+   .img-5{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: -553px;
+    margin-left: 31.7%;
+   }
+   .img-6{
+    display: flex;
+    border: 1px solid #0084ff;
+    height: 550px;
+    width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: -553px;
+    margin-left: 58%;
+   }
+
+   .img-1 h3,
+   .img-1 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-1 h3 {
+    font-size: 1.5rem;
+   }
+   .img-1 p {
+    font-size: 1.2rem;
+
+   }
+   .img-1 b {
+    font-style: italic;
+    color: #0084ff;
+   }   
+   .img-2 h3,
+   .img-2 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-2 h3 {
+    font-size: 1.5rem;
+   }
+   .img-2 p {
+    font-size: 1.2rem;
+
+   }
+   .img-2 b {
+    font-style: italic;
+    color: #0084ff;
+   }  
+   .img-3 h3,
+   .img-3 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-3 h3 {
+    font-size: 1.5rem;
+   }
+   .img-3 p {
+    font-size: 1.2rem;
+
+   }
+   .img-3 b {
+    font-style: italic;
+    color: #0084ff;
+   }   
+   .img-4 h3,
+   .img-4 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-4 h3 {
+    font-size: 1.5rem;
+   }
+   .img-4 p {
+    font-size: 1.2rem;
+
+   }
+   .img-4 b {
+    font-style: italic;
+    color: #0084ff;
+   }  
+   .img-5 h3,
+   .img-5 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-5 h3 {
+    font-size: 1.5rem;
+   }
+   .img-5 p {
+    font-size: 1.2rem;
+
+   }
+   .img-5 b {
+    font-style: italic;
+    color: #0084ff;
+   } 
+   .img-6 h3,
+   .img-6 p {
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+   }
+   .img-6 h3 {
+    font-size: 1.5rem;
+   }
+   .img-6 p {
+    font-size: 1.2rem;
+
+   }
+   .img-6 b {
+    font-style: italic;
+    color: #0084ff;
+   }   
+   .footer{
+    background-color: #172146;
+    padding: 30px 5%;
+    margin: -1%;
+    margin-top: 80px;
+   }
+</style>
+<body>
+    <header>
+    <div class="heading">
+        <h1 width="130px">EDYODA</h1>
+        <font face="raleway">
+            <h3>Stories</h3></div>
+          </font> 
+          <select class="drop">
+                  <option>Artificial Intelligence</option>
+                  <option>Cloud Computing</option>
+                  <option>Programming Languages</option>
+                  <option>Devops</option>
+                  <option>Mobile Application Development</option>
+                  <option>Technology and Tools</option>
+                  <option>Get a Job in a Tech Company</option>
+                  <option>Others</option>
+          </select>
+        </div>
+   </header> 
+
+   <font face="times new roman" size="6">
+   <h3 class="main">Trending Posts</h3>  
+  </font>
+  <div class="content">
+   <table>
+    <tr>
+        <td>
+            <img src="https://www.4me.com/wp-content/uploads/2019/03/4me-icon-filter.png" style="height: 25px; margin-top: 5px;"><p style="margin: -35px; margin-left: 30px; margin-top: -27.5px; font-weight: 600;">Filter by Category</p> <br>
+        </td>
+    </tr>
+   </table>
+   </div>
+   <table>
+    <tr>
+        <td>
+            <div class="All">
+   <div class="categories" id="box-1">
+    <font style="color: #0084ff;">
+    <p>All</p> 
+    </div>
+</div>
+  
+   </div>
+   <div class="categories" id="box-2">
+        <p>Artificial Intelligence</p>
+   </div>
+   <div class="categories" id="box-3">
+    <p>Cloud Computing</p>
+   </div>
+   <div class="categories" id="box-4">
+    <p>Programming Languages</p>
+   </div>
+   <div class="categories" id="box-5">
+    <p>Devops</p>
+    </div>
+    <div class="categories" id="box-6">
+        <p>Mobile Application Development</p>
+        </div>
+        <div class="categories" id="box-7">
+            <p>Technology and Tools</p>
+            </div>
+            <div class="categories" id="box-8">
+                <p>Get a Job in a Tech Company</p>
+                </div>
+                <div class="categories" id="box-9">
+                    <p>Others</p>
+                    </div>
+   </div>
+</font>
+</td>
+</tr>
+</table> 
+<!-- button code ends here -->
+<!-- images section starts here  -->
+<div class="images-section"> 
+    <div class="img-1">
+    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" alt="img">
+    <h3>LAMP Stack Vs MEAN Stack</h3>
+    <p><b class="sub-head">Edyoda</b> | 02 fep 2023</p> 
+    <p>The acronym LAMP refers to Linux, Apache, MySQL, and PHP, while MEAN stands for MongoDB, ExpressJS, AngularJS, and NodeJS. The LAMP Stack developed apps that run on a server, whereas MEAN was explicitly designed to build websites using JavaScript technologies...
+    </p>
+    </div>
+    <div class="img-2">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="img">
+    <h3>Impact of Cloud Computing in various industries</h3>
+    <p><b class="sub-head">Edyoda</b> | 18 apr 2023</p> 
+    <p>Simply put, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale...</p>
+    </div>
+    <div class="img-3">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png" alt="img">
+    <h3>Introduction To A Machine Learning</h3>
+    <p><b class="sub-head">Edyoda</b> | 06 jun 2023</p> 
+    <p>We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what a machine learning online course holds. To begin with, one must understand what machine learning is...</p>
+    </div>
+    <div class="img-4">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" alt="img">
+    <h3>Breaking the Myths around Cybersecurity</h3>
+    <p><b class="sub-head">Edyoda</b> | 7 aug 2023</p> 
+    <p>As the dependency on online platforms is increasing daily, cybersecurity is becoming an important concern for all companies today. The number of cyberattacks is ever-rising even after adopting every security measure possible by businesses...</p>
+    </div>
+    <div class="img-5">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="img">
+    <h3>Breaking the Myths around Cybersecurity</h3>
+    <p><b class="sub-head">Edyoda</b> | 15 oct 2023</p> 
+    <p>As the dependency on online platforms is increasing daily, cybersecurity is becoming an important concern for all companies today. The number of cyberattacks is ever-rising even after adopting every security measure possible by businesses...</p>
+    </div>
+    <div class="img-6">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="img">
+    <h3>Practical Machine Learning with Python and Keras</h3>
+    <p><b class="sub-head">Edyoda</b> | 20 dec 2023</p> 
+    <p>Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to “learn” (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed...</p>
+    </div>
+
+<!-- footer starts here -->
+    <div class="footer">
+      .
+    </div>
+   
+
+    
+
+
+</div>
+
+  
+</body>
+</html>
