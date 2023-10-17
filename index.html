@@ -3,497 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edyoda Stories</title>
+    <title>Stunning page</title>
 </head>
 <style>
-  
     .heading{
-        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 40px 0px 0px 0px;
         margin-top: 0%;
-        margin: -1%;
-        padding: 2px 78px;
-        text-size-adjust: 32px;
-        box-shadow: 9px 1px;
-        color: rgb(197, 197, 199);
+        
        
     }
-    h1{
-        color:#0084ff
-    }
-    .heading h3{
-        margin-top: -1.5%;
-        font-weight: 500;
-       font-style: italic;
-       color: black;
-    }
-    .drop{
+    a{
+        position: relative;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0px 10px;
         
-     position:absolute;
-     top:40px;
-     left:280px;
+    }
+   
+    a::after{
+        content: "";
+        position: absolute;
+        background-color: #5243c0;
+        height: 3px;
+        width: 0%;
+        left: 45%;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+    a:hover::after{
+        width: 50%;
+    }
+    B{ 
+        padding-left: 50px;
+    }
+     .button-container button{
+        display: block;
+        background-color: #ffd8db;
+        border: #ffd8db;
+        color: #a389cc;
+        padding: 20px 30px 20px 30px;
+        border-radius: 24px;
+        font-weight: 800;
+        cursor: pointer;
+        position: fixed;
+        top: 35px;
+        left: 90%;
+    }
+    .button22 button{
+        display: block;
+        background-color: #5243c0;
+        border: #5243c0;
+        color: #ffff;
+        padding: 20px 30px 20px 30px;
+        border-radius: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        position: fixed;
+        margin:2% 0% 0% 7%;
         
-    }     
-    .main{
-        margin-top: 50px;
-        margin-left: 92px;
     }
-    .content{
-        margin-left: 5%;
-        margin-top: -7px;
-        padding-bottom: 10px;
-    }
-    .categories{
-        margin-left: 32%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 72px;
-        width: 30px;
-        height: 4px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      font-weight: 700;
-      border-width: 2px;
-      cursor: pointer;
     
-
-    }
-    .All{
-        margin-top: -50px;
-    }
-    .categories:hover{
-        color: #0084ff;
-    }
-    #box-2{
-        margin-left:58%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 160px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
-
-    }
-    #box-3{
-         margin-left: 132%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .logo{
         width: 150px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
+            position: fixed;
+            top: 25px;
+            left: 60px;
     }
-    #box-4{
-        margin-left: 202.5%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 200px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
+    .main{
+        font-weight: 800;
+        font-size: 200%;
+        margin: 5% 0% 0% 7%;
+        
+    }
+    #text1{
+        margin-bottom: 1%;
+    }
+    #text2{
+        margin-top: 0%;
+        margin-bottom: 0%;
+       
+       
+    }
+    .dot{
+        background-color: #5243c0;
+        width: 10px;
+        height: 10px;
+        color: #5243c0;
+        margin-top: -1.4%;
+        margin-left: 22%;
+    }
+    .stunning{
+       position: fixed;
+       left: 55%;
+       bottom: 16%;
+    }
+    .para{
+        width: 23%;
+        margin: 0% 0% 0% 7%;
+        color: #5a5a5a;
+        word-spacing: 4px;
+        font-size: large;
+    }
+    .arrow{
+        padding: 1.8% 0% 0% 16%;
+    }
+ 
+    #img1{
+        padding-right: 10px;
+    }
+    .box{
+        margin-top: 50px;
+    }
 
-    }
-    #box-5{
-        margin-left: 290%;
-        font-size: 16px;
-        padding: 12px;
+    .boxesbutton{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
+        width: 380px;
+        cursor: pointer;
+        border: none;
+        background-color:rgb(252, 250, 250);
+        border-radius: 10px;
+        margin: 5px 5px 20px 128px;
+        position: relative;
+       
+    }
+    .boxesbutton img {
+        margin-left: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 30px;
+    }
 
-    }
-    #box-6{
-        margin-left: 328%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 250px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
 
+    .boxesbutton p{
+        width: 100px;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 3px;
+        
     }
-    #box-7{
-        margin-left:434%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 160px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
-
+    .space{
+        width: 33px;
+        height: 18px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 14px;
+        margin-left: 28px;
     }
-    #box-8{
-        margin-left: 32%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 220px;
-        margin-top: 6%;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
-
+    .boxeshover{
+        position: absolute;
+        opacity: 0;
     }
-    #box-9{
-        margin-left: 127%;
-        font-size: 16px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        margin-top: -32px;
-       border: 1px solid #0084ff;;
-      transition: background-color 0.3s ease;
-      border-radius: 15px;
-      border-width: 2px;
+    .boxeshover:hover{
+        opacity: 1;
+    }
+    .box .boxesbutton:hover.boxeshover{
+        opacity: 1;
+    }
+    .user{
+        padding-left: 21px;
       
-
     }
-    .categories:hover{
-        background-color: #0084ff;
-        color: azure;
+    .box .boxesbutton:hover{
+        background-color:#ffffff;
+        box-shadow: 5px 10px 18px 10px rgb(248, 248,248);
+        border-radius: 6px;
     }
-    .All :hover{
-        color: azure;
-    }
-   .img-1{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 5.3%;
+  
 
-    
-   }
-   .img-2{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: -553px;
-    margin-left: 31.7%;
-
-    
-   }
-   .img-3{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: -553px;
-    margin-left: 58%;
-   }
-
-    .img-4{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 5.3%;
-    
-   }
-   .img-5{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: -553px;
-    margin-left: 31.7%;
-   }
-   .img-6{
-    display: flex;
-    border: 1px solid #0084ff;
-    height: 550px;
-    width: 400px;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: -553px;
-    margin-left: 58%;
-   }
-
-   .img-1 h3,
-   .img-1 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-1 h3 {
-    font-size: 1.5rem;
-   }
-   .img-1 p {
-    font-size: 1.2rem;
-
-   }
-   .img-1 b {
-    font-style: italic;
-    color: #0084ff;
-   }   
-   .img-2 h3,
-   .img-2 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-2 h3 {
-    font-size: 1.5rem;
-   }
-   .img-2 p {
-    font-size: 1.2rem;
-
-   }
-   .img-2 b {
-    font-style: italic;
-    color: #0084ff;
-   }  
-   .img-3 h3,
-   .img-3 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-3 h3 {
-    font-size: 1.5rem;
-   }
-   .img-3 p {
-    font-size: 1.2rem;
-
-   }
-   .img-3 b {
-    font-style: italic;
-    color: #0084ff;
-   }   
-   .img-4 h3,
-   .img-4 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-4 h3 {
-    font-size: 1.5rem;
-   }
-   .img-4 p {
-    font-size: 1.2rem;
-
-   }
-   .img-4 b {
-    font-style: italic;
-    color: #0084ff;
-   }  
-   .img-5 h3,
-   .img-5 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-5 h3 {
-    font-size: 1.5rem;
-   }
-   .img-5 p {
-    font-size: 1.2rem;
-
-   }
-   .img-5 b {
-    font-style: italic;
-    color: #0084ff;
-   } 
-   .img-6 h3,
-   .img-6 p {
-    padding: 1rem 1rem 0 1rem;
-    margin: 0;
-   }
-   .img-6 h3 {
-    font-size: 1.5rem;
-   }
-   .img-6 p {
-    font-size: 1.2rem;
-
-   }
-   .img-6 b {
-    font-style: italic;
-    color: #0084ff;
-   }   
-   .footer{
-    background-color: #172146;
-    padding: 30px 5%;
-    margin: -1%;
-    margin-top: 80px;
-   }
 </style>
 <body>
-    <header>
-    <div class="heading">
-        <h1 width="130px">EDYODA</h1>
-        <font face="raleway">
-            <h3>Stories</h3></div>
-          </font> 
-          <select class="drop">
-                  <option>Artificial Intelligence</option>
-                  <option>Cloud Computing</option>
-                  <option>Programming Languages</option>
-                  <option>Devops</option>
-                  <option>Mobile Application Development</option>
-                  <option>Technology and Tools</option>
-                  <option>Get a Job in a Tech Company</option>
-                  <option>Others</option>
-          </select>
+    <FONT FACE="VERDANA">
+        <div class="heading">
+           <a href="#Home"><b>Home</b></a>
+           <a href="#About"><b>About</b></a>
+           <a href="#Blog"><b>Blog</b></a>
+           <a href="Jobs"><b>Jobs</b></a>        
         </div>
-   </header> 
 
-   <font face="times new roman" size="6">
-   <h3 class="main">Trending Posts</h3>  
-  </font>
-  <div class="content">
-   <table>
-    <tr>
-        <td>
-            <img src="https://www.4me.com/wp-content/uploads/2019/03/4me-icon-filter.png" style="height: 25px; margin-top: 5px;"><p style="margin: -35px; margin-left: 30px; margin-top: -27.5px; font-weight: 600;">Filter by Category</p> <br>
-        </td>
-    </tr>
-   </table>
-   </div>
-   <table>
-    <tr>
-        <td>
-            <div class="All">
-   <div class="categories" id="box-1">
-    <font style="color: #0084ff;">
-    <p>All</p> 
-    </div>
-</div>
-  
-   </div>
-   <div class="categories" id="box-2">
-        <p>Artificial Intelligence</p>
-   </div>
-   <div class="categories" id="box-3">
-    <p>Cloud Computing</p>
-   </div>
-   <div class="categories" id="box-4">
-    <p>Programming Languages</p>
-   </div>
-   <div class="categories" id="box-5">
-    <p>Devops</p>
-    </div>
-    <div class="categories" id="box-6">
-        <p>Mobile Application Development</p>
+        <IMG class="logo" src="/CSS_ASSIGNMENT/stunning-logo.png" alt="IMG">
+        <div class="button-container">
+            <button id="Your" type="your"> Your Account</button> 
         </div>
-        <div class="categories" id="box-7">
-            <p>Technology and Tools</p>
-            </div>
-            <div class="categories" id="box-8">
-                <p>Get a Job in a Tech Company</p>
-                </div>
-                <div class="categories" id="box-9">
-                    <p>Others</p>
-                    </div>
-   </div>
-</font>
-</td>
-</tr>
-</table> 
-<!-- button code ends here -->
-<!-- images section starts here  -->
-<div class="images-section"> 
-    <div class="img-1">
-    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" alt="img">
-    <h3>LAMP Stack Vs MEAN Stack</h3>
-    <p><b class="sub-head">Edyoda</b> | 02 fep 2023</p> 
-    <p>The acronym LAMP refers to Linux, Apache, MySQL, and PHP, while MEAN stands for MongoDB, ExpressJS, AngularJS, and NodeJS. The LAMP Stack developed apps that run on a server, whereas MEAN was explicitly designed to build websites using JavaScript technologies...
-    </p>
+    
+    <div class="main">
+        <h1 id="text1">Stunning</h1>
+        <h1 id="text2">Workplace<p class="dot"></p> </h1>
     </div>
-    <div class="img-2">
-        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="img">
-    <h3>Impact of Cloud Computing in various industries</h3>
-    <p><b class="sub-head">Edyoda</b> | 18 apr 2023</p> 
-    <p>Simply put, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale...</p>
+</FONT>
+<div id="caption"></div>
+<img class="stunning" src="/CSS_ASSIGNMENT/landing-section-image.png">
+<p class="para">With Stunning,remote teams can organize pojects,
+    manage shifting proiorities,and get work done. </p>
+    <FONT face="VERDANA">
+        <div class="button-container-2">
+            <div class="button22">
+        <button id="but2" type="menu"> New Account</button> </div> 
+        <div class="arrow"><img id="img1" src="/CSS_ASSIGNMENT//arrow-up.png" alt="img"> <img class="img2" src="/CSS_ASSIGNMENT/arrow-down.png" alt="img"></div>
     </div>
-    <div class="img-3">
-        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png" alt="img">
-    <h3>Introduction To A Machine Learning</h3>
-    <p><b class="sub-head">Edyoda</b> | 06 jun 2023</p> 
-    <p>We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what a machine learning online course holds. To begin with, one must understand what machine learning is...</p>
-    </div>
-    <div class="img-4">
-        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" alt="img">
-    <h3>Breaking the Myths around Cybersecurity</h3>
-    <p><b class="sub-head">Edyoda</b> | 7 aug 2023</p> 
-    <p>As the dependency on online platforms is increasing daily, cybersecurity is becoming an important concern for all companies today. The number of cyberattacks is ever-rising even after adopting every security measure possible by businesses...</p>
-    </div>
-    <div class="img-5">
-        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="img">
-    <h3>Breaking the Myths around Cybersecurity</h3>
-    <p><b class="sub-head">Edyoda</b> | 15 oct 2023</p> 
-    <p>As the dependency on online platforms is increasing daily, cybersecurity is becoming an important concern for all companies today. The number of cyberattacks is ever-rising even after adopting every security measure possible by businesses...</p>
-    </div>
-    <div class="img-6">
-        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="img">
-    <h3>Practical Machine Learning with Python and Keras</h3>
-    <p><b class="sub-head">Edyoda</b> | 20 dec 2023</p> 
-    <p>Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to “learn” (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed...</p>
-    </div>
+    <div class="box">
+        <button class="boxesbutton">
+             <img src="/CSS_ASSIGNMENT/tick-gray.png" alt="gray">
+             <img
+             class="boxeshover"
+             src="/CSS_ASSIGNMENT/tick-blue.png" alt="blue">
+             <p>Dmm design</p>
+             <img  class="user" src="/CSS_ASSIGNMENT/user-pink.png" alt="PINK">
+             <p>20 DEC</p>
+             <input class="space" style="background-color: #fed7da;"
+             type="button">
+        </button>
 
-<!-- footer starts here -->
-    <div class="footer">
-      .
-    </div>
-   
+        <button class="boxesbutton">
+            <img src="/CSS_ASSIGNMENT/tick-gray.png" alt="gray">
+            <img
+            class="boxeshover"
+            src="/CSS_ASSIGNMENT/tick-blue.png" alt="blue">
+            <p class="user-2">Blur animation</p>
+            <img  class="user" src="/CSS_ASSIGNMENT/user-orange.png" alt="PINK">
+            <p>22 DEC</p>
+            <input class="space" style="background-color: #fd6534;"
+            type="button">
+       </button>
 
+       <button class="boxesbutton">
+            <img src="/CSS_ASSIGNMENT/tick-gray.png" alt="gray">
+            <img
+            class="boxeshover"
+            src="/CSS_ASSIGNMENT/tick-blue.png" alt="blue">
+            <p class="user-3">Illustration</p>
+            <img  class="user" src="/CSS_ASSIGNMENT/user-blue.png" alt="PINK">
+            <p>26 DEC</p>
+            <input class="space" style="background-color: #9ed095;"
+            type="button">
+       </button>
+
+       <button class="boxesbutton">
+            <img src="/CSS_ASSIGNMENT/tick-gray.png" alt="gray">
+            <img
+            class="boxeshover"
+            src="/CSS_ASSIGNMENT/tick-blue.png" alt="blue">
+            <p class="user-4">Refunds</p>
+            <img  class="user" src="/CSS_ASSIGNMENT/user-red.png" alt="PINK">
+            <p>28 DEC</p>
+            <input class="space" style="background-color: #ffe4a0;"
+            type="button">
+       </button>
+    
     
 
 
-</div>
 
-  
+
+    </div>
+        
+    </FONT>
 </body>
 </html>
